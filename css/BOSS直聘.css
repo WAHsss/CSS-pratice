@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/* header */
+.header-cont,.banner-cont,.report-cont,.article-cont,.news-cont{width: 1170px;margin: 0 auto; position: relative;}
+/* header */
+#header{height: 100px;}
+.header-cont .logo{width: 54px;height: 78px;padding-top: 22px;float: left;}
+.header-cont .header-nav{float: left;height: 18px;}
+.header-cont .header-nav li{float: left;margin-left: 38px;}
+.header-cont .header-nav .first-li{margin-left: 40px;}
+.header-cont .header-nav li a{display: block; font-size: 16px;height: 78px;line-height: 100px;color: #333333;}
+.header-cont .header-nav li a:hover{color: #53cac3;}
+.header-cont  .contact{float: right;padding-top: 40px;}
+.header-cont  .contact a{display: inline-block;}
+.header-cont  .contact .a-one{ width: 103px;border-right: 1px solid #e5e5e5;}
+.header-cont  .contact em{font-size: 14px;color: #333333;}
+.header-cont  .contact img{display: inline-block;margin-right: 13px;vertical-align: middle;}
+.header-cont  .contact .a-two{padding-left: 19px;}
+
+/* banner */
+#banner .banner-cont{height: 398px; }
+.banner-cont img{position: absolute;left: 50%;margin-left: -960px;}
+.banner-cont .banner-text{width: 520px;height: 130px; position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin:137px auto 0; text-align: center;}
+.banner-cont .banner-text h2{font-size: 38px;color: #fff;}
+.banner-cont .banner-text a{display:inline-block; width: 187px;height: 44px;margin-top: 51px; text-indent:-9999px; background: url(../imgs/images/BOSS_banner_btn_03.png)no-repeat center;}
+
+/* report */
+#b-body{background: #f3f3f3;padding-bottom: 31px;}
+#report{width: 1118px; height: 397px;position: relative;top: -69px;background: #fff;padding:42px 0 0 52px; z-index: 10;}
+#report .report-card{float: left; width: 340px; background: url(../imgs/images/BOOS_report_bg_03.jpg) no-repeat right center;}
+#report .report-card .card-header{width: 285px;overflow: hidden;}
+#report .report-card .card-header h3{float: left; font-size: 17px;line-height: 17px;color: #333;padding-left: 9px; border-left: 3px solid #53cac3;}
+#report .report-card .card-header a{float: right; text-indent: -9999px; width: 49px; height: 20px; font-size: 14px;line-height: 20px;color: #666;
+     background: url(../imgs/images/BOSS_report_more_03.jpg) no-repeat center;}
+#report .report-card img{margin-top: 42px;}
+#report .report-card:hover .card-header a{ background: url(../imgs/images/BOOS_report_more_active_03.jpg) no-repeat center;}
+#report .report-card .card-body {width: 285px;font-size: 20px;color: #000;line-height: 32px;margin-top: 32px;}
+#report .report-card .card-footer{width: 285px; font-size: 14px; line-height: 14px;color: #999999;margin-top: 15px;} 
+#report .report-card:hover .card-footer{ color: #53cac3;}
+#report .report-card-m{margin: 0 49px;}
+#report .report-card-r{background: none;}
+
+/* article */
+#article{width: 1124px; height: 726px; background: #fff;margin-top: -53px;}
+#article{padding-left: 46px;}
+.arcticle-comm{width: 1078px;height: 191px; padding-left:22px; border-bottom: 1px solid #ededed;}
+.arcticle-comm dt,dd{float: left;}
+.arcticle-comm dd{width:738px; padding-left: 30px;}
+.arcticle-comm .d-header{font-size: 20px;color: #000;line-height: 20px;}
+.arcticle-comm .d-body{font-size: 14px;color: #666;line-height: 24px;margin-top: 21px;}
+.arcticle-comm .d-body a{color: #666;}
+.arcticle-comm .d-footer{font-size: 14px;color: #999;line-height: 14px;margin-top: 30px;}
+.arcticle-comm .d-footer span{color: #53cac3;}
+.arcticle-comm .d-footer b{display: inline-block;background: url(../imgs/images/BOOS_mark_03.jpg) no-repeat left center;padding-left: 19px;margin-left: 46px;}
+.atricle-top{padding-top: 66px;}
+.atricle-middle{margin-top: 12px;}
+.atricle-bottom{margin-top: 37px;border: none;}
+
+/* news */
+
+#news{height: 432px;background: #fff;margin-top: 15px;}
+.news-article{padding-top: 26px;padding-left: 46px; float: left;}
+.news-article .news-top{font-size: 18px;line-height: 18px; color: #53cac3;border-left: 3px solid #53cac3;padding-left: 6px;margin-left: 6px;}
+.news-box{float: left;}
+.news-card{border-bottom: 1px dashed #ccc;overflow: hidden; width: 646px;}
+.news-card .news-tit{font-size: 14px;color: #53cac3;line-height: 14px;margin-top: 10px;}
+.news-card dd,dt{float: left;}
+.news-card dt{margin-bottom: 10px;}
+.news-card dd{padding-left: 17px;}
+.news-card .news-body{width: 481px; font-size: 12px;color: #999;line-height: 20px;margin-top: 9px;}
+.news-card-top{margin-top: 30px;}
+.news-card-m{margin-top: 17px;}
+.news-card-b{margin-top: 15px;}
+
+.news-img{position: relative; float: left;margin-left: 59px;padding-top: 30px;}
+.news-img dl{width: calc(100% - 15px) ; font-size: 16px; color: #fefefe;line-height: 40px;
+     padding-left: 15px;position: absolute;bottom: 0;background: #53cac3;}
+
+/* footer */
+#footer{background: #000;height: 232px; text-align: center;}
+#footer .links{width: 493px;height: 99px; position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;}
+#footer .links a{display: inline-block;margin:0 23px;font-size: 18px;color: #fff;line-height: 18px;}
+#footer .links p{font-size: 12px; color: #fff;line-height: 28px;margin-top: 37px;}
